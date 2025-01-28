@@ -1,0 +1,43 @@
+.container
+{
+    background:linear-gradient(pink,skyblue);
+    height: 625px;
+    width: 100%;
+    display:flex;
+    border-radius:8px;
+    flex-direction: column;
+}
+.box
+{
+    height: 65px;
+    width: 98.5%;
+    background-color:rgb(243, 63, 63);
+    border-radius:12px;
+    margin: 10px;
+}
+a
+{
+    text-decoration:none;
+    float:right;
+    margin: 25px;
+    list-style-type: none;
+    justify-content: center;
+    color: white;
+}
+.flexbox
+{
+    width: 50%;
+    height: 40px;
+    margin:auto;
+    display: flex;
+    gap:20px;
+    margin: 45px; 
+}
+.box1
+{
+    border:2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius:9px;
+    justify-content: center;
+}
