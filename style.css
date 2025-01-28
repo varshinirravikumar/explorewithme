@@ -1,17 +1,20 @@
 .container
 {
-    background:linear-gradient(pink,skyblue);
+    background:linear-gradient(rgb(233, 119, 157),rgb(161, 199, 223));
     height: 625px;
     width: 100%;
     display:flex;
     border-radius:8px;
     flex-direction: column;
+    align-items: center;
+   
+
 }
 .box
 {
     height: 65px;
     width: 98.5%;
-    background-color:rgb(243, 63, 63);
+    background-color:rgb(226, 24, 101);
     border-radius:12px;
     margin: 10px;
 }
@@ -24,20 +27,30 @@ a
     justify-content: center;
     color: white;
 }
+a:hover
+{
+    color:black;
+    background-color: white;
+}
 .flexbox
 {
-    width: 50%;
-    height: 40px;
-    margin:auto;
+   
     display: flex;
     gap:20px;
-    margin: 45px; 
+    margin-top:11%;
+    align-items: center;
+   
+   
 }
 .box1
 {
-    border:2px solid black;
-    width: 200px;
-    height: 200px;
+    border:2px solid rgb(5, 111, 143);
+    width: 400px;
+    height: 250px;
     border-radius:9px;
-    justify-content: center;
+    text-align: center;
+
+
+    
+   
 }
