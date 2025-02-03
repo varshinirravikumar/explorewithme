@@ -1,7 +1,7 @@
 
 nav
 {
-    background:linear-gradient(rgb(233, 119, 157),rgb(161, 199, 223));
+    background:linear-gradient(#e4256e ,rgb(63, 136, 245));
     height: 625px;
     width: 1200px;
     
@@ -10,11 +10,12 @@ nav
     padding:0px 75px;
     line-height:75px;
 }
-.nav-bar
+.nav-bar 
 {
     float:left;
     font-size: 15px;
     cursor: pointer;
+    
 }
 ul
 {
@@ -24,31 +25,31 @@ ul li
 {
     display: inline-block;
 
+    
 }
 ul li a
 {
     text-decoration: none;
     padding:0px 25px;
-    color: rgb(15, 14, 14);
+    color: white;
             
 }
 li a:hover
 {
-color:white;
-           
+color:black;
+background-color:white;          
            
 transition: all 0.4s ease 0s;
 }
 .container
 {
-    background:linear-gradient(#f1bef1 ,rgb(255, 253, 208));
+    background:linear-gradient(#e4256e ,rgb(63, 136, 245));
     height: 100%;
     width: 100%;
-    /*display:flex;*/
+   
     border-radius:8px;
     flex-direction: column;
-    position: scroll;
-   
+    position: relative;
     
     line-height:75px;
 }
@@ -61,20 +62,51 @@ transition: all 0.4s ease 0s;
     flex-wrap: wrap;
     margin: 25px;
     justify-content: center;
+    padding: 10px;
 }
 
 .box1
 {
-    border:2px solid rgb(5, 111, 143);
+    border:2px solid black;
     width: 250px;
     height: 250px;
     border-radius:9px;
     text-align: center;
     
+   
 }
 p
 {
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+h2
+{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:55px;
+    -webkit-text-stroke: 1px #fff;/*outline to the text*/
+    color:transparent;
+    background-image: linear-gradient( to right,hsla(216, 91%, 48%, 0.918),#edf109);
+    background-repeat:no repeat;
+    -webkit-background-clip: text;
+    background-position: -750px 0px;
+    animation:backcolor 5s linear infinite alternate;
+ 
+}
+@keyframes backcolor 
+{
+    100%
+    {
+        background-position:0 0;
+    }
+}
+.box1 img
+{
+    width: 250px;
+    height: 245px;
+    object-fit: cover;
 }
