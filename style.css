@@ -48,16 +48,30 @@ background-color:white;
            
 transition: all 0.4s ease 0s;
 }
+
+.con 
+{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+     
+    margin: 20px;               /*Remove default margin*/
+}
+
+
+
 .container
 {
-    background:linear-gradient(#e4256e ,rgb(63, 136, 245));
+    background-color:#F52549;
+    /* background-color: #BC4639; */
     height: 100%;
-    width: 100%;
+    width: 80%;
     border-radius:8px;
     display: flex;
     flex-direction: column;
     position: relative;
-    line-height:75px;   
+    line-height:75px; 
+   
     
 }
     
@@ -74,11 +88,14 @@ transition: all 0.4s ease 0s;
 
 .box1,.box2
 {
-    border:2px solid white;
-    width: 250px;
-    height: 250px;
-    border-radius:9px;
+    border:4px solid black;
+    width: 200px;
+    height: 200px;
+    
     text-align: center;
+
+    overflow: hidden;
+            position: relative;
 }
 
 p
@@ -115,15 +132,65 @@ h2
 }
 .box1 img
 {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+   
 }
 .box2 img
 {
-    
-    width: 330px;
-    height: 250px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
+
+
+/* Hover effect for zoom-in and grayscale to color */
+.box1:hover img, .box2:hover img {
+    transform: scale(1.3); /* Zoom-in effect */
+    filter: grayscale(0%); /* Remove grayscale */
+}
+
+
+.artimage
+
+{
+width: 200px;
+transform:width 3s;
+}
+.artimage:hover
+{
+    width:400px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) 
+{
+    .flexbox 
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box1 
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+Html
+ {
+    scroll-behavior: smooth;
+}
+
 
