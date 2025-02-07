@@ -185,7 +185,7 @@ transition: transform 3s cubic-bezier(.91,.05,.19,.85) 0S;
 
     .box1 
     {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
