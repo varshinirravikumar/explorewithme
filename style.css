@@ -178,7 +178,7 @@ transition: transform 3s cubic-bezier(.91,.05,.19,.85) 0S;
 @media (max-width: 768px) {
     nav {
         height: auto;
-        width: 100%;
+        width: 75%;
         padding: 0px 20px;
     }
 
