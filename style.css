@@ -158,11 +158,12 @@ h2
 
 {
 width: 200px;
-transform:width 3s;
+transition: transform 3s cubic-bezier(.91,.05,.19,.85) 0S;
 }
 .artimage:hover
 {
-    width:400px;
+    
+    transform:translateX(800px) translateY(300px) scale(1.5);
 }
 
 
@@ -193,4 +194,61 @@ Html
     scroll-behavior: smooth;
 }
 
+/* .gpt
+{
+    background: linear-gradient(45deg, #e4256e, rgb(63, 136, 245));
+    background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite;
+}
+
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+} */
+
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 50%;
+    /* padding: 20px; */
+    height: 5%;
+    width: auto;
+    font-size: small;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.back-to-top 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    background-color: #2980b9;
+}
 
