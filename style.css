@@ -175,18 +175,42 @@ transition: transform 3s cubic-bezier(.91,.05,.19,.85) 0S;
 
 
 
-@media screen and (max-width: 700px) 
-{
-    .flexbox 
-    {
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .flexbox {
         flex-direction: column;
         gap: 20px;
     }
 
-    .box1 
-    {
-        width: 80%;
-        height: auto;
+    .box1, .box2 {
+        width: 150px;
+        height: 150px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul li a {
+        padding: 10px;
     }
 }
 Html
