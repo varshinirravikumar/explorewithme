@@ -204,16 +204,16 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width: 5%) {
+@media (max-width:200px ) {
     nav {
-        height: 10%;
-        width: 5%;
+        height: 150px;
+        width: 150px;
          
     } 
     
     .container {
-        width: 30%;
-        height: 100%;
+        width: 150px;
+        height: 150px;
 
     }
 
@@ -223,8 +223,8 @@ to{ transform:translateX(1200px);}
     }
 
     .box1, .box2 {
-        width: 100%;
-        height: auto;
+        width: 150px;
+        height: 150px;
     }
 
     p {
