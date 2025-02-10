@@ -204,7 +204,7 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width: 100px) {
+@media (max-width: 40px) {
     nav {
         height: auto;
         width: 20%;
