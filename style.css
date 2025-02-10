@@ -212,7 +212,7 @@ to{ transform:translateX(1200px);}
     } 
 
     .container {
-        width: 80%;
+        width: 100%;
     }
 
     .flexbox {
@@ -245,32 +245,32 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width: 480px) { /* For very small screens like phones in portrait mode */
-    nav {
+/* @media (max-width: 480px) { /* For very small screens like phones in portrait mode */
+    /* nav {
         width: 100%; /* Nav should take up the entire width */
-    }
+    /* } */ */
 
-    .container {
-        width: 100%; /* Full width container for tiny screens */
-    }
+    /* .container {
+        width: 100%; Full width container for tiny screens
+    } */
 
-    .flexbox {
+    /* .flexbox {
         gap: 10px; /* Minimize gap to save space */
-    }
+    /*  *} */
 
-    .box1, .box2 {
+    /* .box1, .box2 { */
         width: 100%; /* Make boxes responsive, full-width */
         height: 100px; /* Adjust height for a better fit */
-    }
+    /* }/ */
 
-    p, h2 {
+    /* p, h2 {
         font-size: 12px; /* Make font even smaller */
-    }
+    /* } */ */
 
-    ul li a {
-        padding: 5px; /* Reduce padding further */
-    }
-}
+    /* ul li a {
+        padding: 5px; Reduce padding further */
+    /* } */
+/* // */
 Html
  {
     scroll-behavior: smooth;
