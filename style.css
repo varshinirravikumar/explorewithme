@@ -157,14 +157,47 @@ h2
 .artimage
 
 {
-width: 200px;
-transition: transform 3s  0S;
+    top: 250px;
+    position:absolute;
+    width:250px;
+    height:250px;
+    animation-name:craftanimation;
+    animation-duration:35s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
 }
-.artimage:hover
+@keyframes craftanimation
 {
-    
-    transform:translateX(20px) translateY(300px) scale(2.5);
+    from
+    {
+        transform:translateX(-500px);
+    }
+to{ transform:translateX(1200px);}
 }
+.balloon1
+{
+    top: 100px;
+    position:absolute;
+    width: 250px;
+    height:250px;
+   
+    animation: balloonanimation 35s 0s infinite  linear;
+}
+@keyframes balloonanimation
+{
+    from{
+        transform:translateX(-500px) ;
+
+    }
+    to{
+        transform:translateX(1200px);
+    }
+}
+
+
+
+
 @media (max-width: 768px) {
     nav {
         height: auto;
