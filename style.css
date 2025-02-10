@@ -194,16 +194,10 @@ to{ transform:translateX(1200px);}
         transform:translateX(1200px);
     }
 }
-/* @media only screen and (max-width: 767px) {
-    body {
-      font-size: 12px;
-      width: 100%;
-      margin: 0;
-    }
-  } */
 
 
-/* 
+
+
 @media (max-width:10px ) {
     nav {
         height: 10px;
@@ -243,7 +237,7 @@ to{ transform:translateX(1200px);}
     ul li a {
         padding: 10px;
     } 
-} */
+}
 
 
 
