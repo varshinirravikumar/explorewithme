@@ -198,15 +198,15 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width: 50%) {
+@media (max-width: 20%) {
     nav {
         height: auto;
-        width: 30%;
-        padding: 0px 0px;
+        width: 10%;
+        /* padding: 0px 0px; */
     }
 
     .container {
-        width: 45%;
+        width: 15%;
     }
 
     .flexbox {
