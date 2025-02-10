@@ -204,15 +204,15 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width: 10%) {
+@media (max-width: 5%) {
     nav {
         height: 10%;
-        width: 10%;
+        width: 5%;
          
     } 
     
     .container {
-        width: 80%;
+        width: 30%;
         height: 100%;
 
     }
