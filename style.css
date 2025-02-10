@@ -206,14 +206,15 @@ to{ transform:translateX(1200px);}
 
 @media (max-width: 10%) {
     nav {
-        height: auto;
-        width: 20%;
+        height: 10%;
+        width: 10%;
          
     } 
     
     .container {
-        width: 100%;
-        
+        width: 80%;
+        height: 100%;
+
     }
 
     .flexbox {
