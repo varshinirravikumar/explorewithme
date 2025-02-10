@@ -201,12 +201,12 @@ to{ transform:translateX(1200px);}
 @media (max-width: 50%) {
     nav {
         height: auto;
-        width: 55%;
-        padding: 0px 20px;
+        width: 30%;
+        padding: 0px 0px;
     }
 
     .container {
-        width: 95%;
+        width: 45%;
     }
 
     .flexbox {
@@ -224,7 +224,7 @@ to{ transform:translateX(1200px);}
     }
 
     h2 {
-        font-size: 45px;
+        font-size: 15px;
     }
 
     ul {
