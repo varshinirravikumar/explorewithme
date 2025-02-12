@@ -2,8 +2,8 @@
 nav
 {
     background:linear-gradient(#e4256e ,rgb(63, 136, 245));
-    height: 625px;
-    width: 1200px;
+    height: 97%;
+    width: 88%;
     position: fixed;
     border-radius:8px;
     padding:0px 75px;
@@ -198,75 +198,15 @@ to{ transform:translateX(1200px);}
 
 
 
-@media (max-width:10px ) {
+@media (max-width:600px)
+ {
     nav {
-        height: 10px;
-        width: 10px;
+       
+        width: 300px;
+
          
     } 
-    
-    .container {
-        width: 10px;
-        height: 10px;
-
-    }
-
-    .flexbox {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .box1, .box2 {
-        width: 10px;
-        height: 10px;
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    h2 {
-        font-size: 15px;
-    }
-
-    ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    ul li a {
-        padding: 10px;
-    } 
 }
-
-
-
-/* @media (max-width: 480px) { /* For very small screens like phones in portrait mode */
-    /* nav {
-        width: 100%; /* Nav should take up the entire width */
-    /* } */ */
-
-    /* .container {
-        width: 100%; Full width container for tiny screens
-    } */
-
-    /* .flexbox {
-        gap: 10px; /* Minimize gap to save space */
-    /*  *} */
-
-    /* .box1, .box2 { */
-        width: 100%; /* Make boxes responsive, full-width */
-        height: 100px; /* Adjust height for a better fit */
-    /* }/ */
-
-    /* p, h2 {
-        font-size: 12px; /* Make font even smaller */
-    /* } */ */
-
-    /* ul li a {
-        padding: 5px; Reduce padding further */
-    /* } */
-/* // */
 Html
  {
     scroll-behavior: smooth;
